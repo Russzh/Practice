@@ -1,0 +1,612 @@
+body {
+
+    margin: 0;
+}
+div {
+	box-sizing: border-box;
+}
+header {
+	background: url(../img/image.png) no-repeat center top / cover ;
+	padding-bottom: 123px;
+}
+.clearfix:after {
+	content:' ';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+.container {
+	width: 950px;
+	margin: 0 auto;
+}
+.logo {
+    margin-top: 50px;
+    float: left;
+}
+nav {
+	float: right;
+	margin-top: 50px;
+}
+.menu {
+	display: block;
+	padding: 0;
+	margin: 0;	
+}
+.menu li {
+	float: left;
+	display: block;
+}
+.menu li a {
+	color: #fff;
+	text-decoration: none;
+	margin-right: 30px;
+	font-size: 18px;
+}
+.titles_first {
+	font-size:32px; 
+	color:#fff;
+	text-align: center;
+	margin-top: 150px;
+}
+.titles h1 {
+	font-size: 66px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 50;
+}
+.button {
+		background: transparent;
+		color: #fff;
+		font-size: 18px;
+		border-radius: 2px;
+		display: block;
+		width: 240px;
+		margin: 0 auto;
+		padding: 20px 0;
+		border: 2px solid #fff;
+		text-decoration: none;
+		text-align: center;
+		font-weight: bold;
+		margin-top: 80px;
+}
+.WD h2 {
+	font-size: 60px;
+	color:black;
+	text-align: left;
+	font-weight: 1;
+}
+.WD p {
+	color: #7b7979;
+}
+.WD {
+	float: left;
+	padding-bottom: 100px;
+}
+.imgweb {
+	margin-top:89px;
+}
+.WD:last-child {
+	margin-left: 74px;
+}
+#contain {
+background: #eeeeee;
+padding-bottom: 100px;
+padding-top: 100px;
+}
+.B {
+	float: right;
+	margin-right: 40px;
+}
+.B h2 {
+	font-weight: 1;
+	font-size: 60px;
+	margin: 0;
+
+}
+.B p {
+	padding: 0;
+	margin-top: 30px;
+	font-size: 18px;
+	color: #7b7979;
+}
+.B:last-child {
+	margin-right: 55px;
+}
+.B img {
+	margin-top: 25px;
+}
+.p {
+	position: relative;
+	height: 72px;
+	width: 72px;
+}
+.PII {
+	position: absolute;
+	width: 72px;
+}
+.PI {
+	position: absolute;
+	height: 44px;
+	width: auto;
+	margin-left: 25px;
+	margin-top: 13px;
+}
+.text {
+	margin-left: 92px;
+}
+.text h3 {
+	margin: 0;
+	font-size: 22px;
+} 
+.text p {
+	margin: 19;
+	font-size: 18px;
+	color: #7b7979;
+}
+.PIWG {
+	float: left;
+	margin-right:109px;
+	margin-top: 100px;
+} 	
+.r {
+	margin-left: 0px;
+	margin-top: 100px;
+	float: right;
+	
+}
+.tex h3 {
+	margin: 0px 93px;
+	font-size: 22px;
+} 
+.tex p {
+	font-size: 18px;
+	color: #7b7979;
+	margin-left: 93px;
+}
+.tex {
+	float: left;
+}
+
+.PII {
+	position: absolute;
+	width: 72px;
+}
+.PI {
+	position: absolute;
+	height: 44px;
+	width: auto;
+	margin-left: 25px;
+	margin-top: 13px;
+}
+.WGG {
+	position: absolute;
+	width: 72px;
+}
+.WG {
+	position: absolute;
+	height: 34px;
+	width: auto;
+	margin-left: 17px;
+	margin-top: 17px;
+}
+.text {
+	margin-left: 92px;
+}
+.text h3 {
+	margin: 0;
+	font-size: 22px;
+} 
+.text p {
+	margin: 19;
+	font-size: 18px;
+	color: #7b7979;
+}
+.IWG {
+	float: left;
+	margin-right:109px;
+	margin-top: 45px;
+} 	
+.rr {
+	margin-left: 0px;
+	margin-top: 45px;
+	float: right;
+	
+}
+.tex h3 {
+	margin: 0px 93px;
+	font-size: 22px;
+} 
+.tex p {
+	font-size: 18px;
+	color: #7b7979;
+	margin-left: 93px;
+}
+.tex {
+	float: left;11
+}
+.MADD {
+	position: absolute;
+	width: 72px;
+}
+.MAD {
+	position: absolute;
+	height: 34px;
+	width: auto;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.ANN {
+	position: absolute;
+	width: 72px;
+}
+.AN {
+	position: absolute;
+	height: 30px;
+	width: 36px;
+	margin-left: 18px;
+	margin-top: 21px;
+}
+
+.IWG {
+	float: left;
+	margin-right:109px;
+	margin-top: 45px;
+} 	
+.rrr {
+	margin-left: 0px;
+	margin-top: 45px;
+	float: right;
+	margin-bottom: 100px;
+	
+}
+.tex h3 {
+	margin: 0px 93px;
+	font-size: 22px;
+} 
+.tex p {
+	font-size: 18px;
+	color: #7b7979;
+	margin-left: 93px;
+}
+.tex {
+	float: left;11
+}
+.MADD {
+	position: absolute;
+	width: 72px;
+}
+.STR {
+	position: absolute;
+	height: 30px;
+	width: auto;
+	margin-left: 22px;
+	margin-top: 20px;
+}
+.ANN {
+	position: absolute;
+	width: 72px;
+}
+.CAM {
+	position: absolute;
+	height: 30px;
+	width: 36px;
+	margin-left: 18px;
+	margin-top: 21px;
+}
+.awesome h2 {
+	margin:0;
+	padding-top: 0;
+	color: #111111;
+	font-size: 60px;
+	font-weight: 1;
+	text-align: center;
+	padding-left: 30px;
+}
+.awesome p {
+	color: #7b7979;	
+	font-size: 22px;
+	margin:0;
+	text-align: center;
+}
+.speak {	
+	margin-left: 23px;
+}
+.dial {
+	position: relative;
+	top: 26px;
+}
+.dialog {
+	position: relative;
+    display: inline-block;
+}
+.dialog :last-child {
+	float: left;
+}
+.dia {
+	background-image: url(../img/SP.png);
+	background-repeat:no-repeat;
+	height: 175px;
+	padding-top: 35px;
+	padding-right: 70px;
+	padding-left: 70px;
+	color: #7b7979;
+	font-size: 26px;
+}
+
+.dia-flip {
+		background-image: url(../img/SPE.png);
+}
+
+.Jamie {
+	font-size: 20px;
+	color: #7690c5;
+}
+.e {
+	margin-top: 40px;
+	margin-bottom: 0px;
+}
+.logos img {
+	margin-left: 45px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+#black {
+	background: black;
+	padding-top: 100px;
+}	
+#black h1 {
+	font-size: 60px;
+	color: #fff;
+	text-align: center;
+	font-weight: 1;
+	margin: 0;
+	padding:0;
+}
+.Amazing p {
+	font-size: 22px;
+	color: #7b7979;
+	text-align: center;;
+	font-weight: 1;
+	margin-top: 18;
+	padding-bottom: 80px;
+}
+.team {
+	width: 240px;
+	float: left; 
+	margin-left: 45px;
+	margin-bottom: 50px;	
+}
+.team p {
+	font-size: 18px;
+	color: white;
+	text-align: center;
+}
+.twiter {
+	background-image: url(../img/tw-b.png);
+	background-repeat: no-repeat; 
+	height: 50px;
+	width: 50px;
+	float: left;
+
+}
+.twi {
+	margin-top: 14px;
+	margin-left: 10px;
+}
+.f {
+	margin-top: 12px;
+	margin-left: 14px;
+}
+.p {
+	height: 22px;
+	width: 15px;
+	margin-top: 11px;
+	margin-left: 13px;
+}
+.soc {
+	margin-left: 45px;
+}
+.teamm{
+	margin-left: 27px;
+}
+.desr p {
+	font-size: 20px;
+	color: white;
+	float: left;
+	text-align: center;
+	width: 950px;
+	margin-bottom:100px;
+}
+#cont {
+background: #7690c5;
+padding-bottom:20px;
+}
+.con {
+	width: 979px;
+	margin-left: 310px;
+}
+.say h2 {
+	color: white;
+	font-size: 60px;
+	padding: 0px;
+	margin:0px;
+	font-weight: 1;
+	margin-block-end: 0em;
+	margin-block-start: 0em;
+}
+.say {
+	float: left;
+	margin-top: 0px;
+}
+
+.sayhello {
+	padding-top: 100px;
+	padding-bottom: 1px;
+	width: 1050px;
+	height: 181px;
+}
+.say:last-child  {
+	margin-left: 275px;
+}
+
+#forrm1 {
+	width: 455px;
+	height: 50px;
+	margin-left: 275px;
+	border-radius: 6px;
+	margin-bottom: 0;
+}
+#forrm1::placeholder{
+	font-size: 18px;
+	color: #cecece;
+	font-family: mariad pro;
+}
+.dont p {
+	color: white;
+	font-size: 18px;
+	padding-top: 0px;
+	margin:0px;
+	font-weight: 1;
+}
+.dont {
+	float: left;
+	margin-top: 12px;
+}
+
+.dontb {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	width: 1050px;
+	bottom: 32px;
+	height: 29px;	
+}
+.dont:last-child  {
+	margin-left: 275px;
+}
+
+#forrm2 {
+	width: 455px;
+	height: 50px;
+	margin-left: 45px;
+	border-radius: 6px;
+	margin-bottom: 0;
+	margin-top: 0px;
+}
+#forrm2::placeholder{
+	font-size: 18px;
+	color: #cecece;
+	font-family: mariad pro;
+}
+#forrm3 {
+	width: 455px;
+	height: 210px;
+	margin-left: 0px;
+	border-radius: 6px;
+	margin-bottom: 0;
+	margin-top: 0px;
+	padding-bottom: 0px;
+}
+
+textarea { 
+	resize: none;
+ }
+textarea::placeholder {
+	padding-top: 10px;
+	padding-left: 10px;
+	font-size: 18px;
+	color: #cecece;
+	font-family: mariad pro;
+}
+.bolform {
+	float: right;
+	margin-top: 0;
+}
+.bolform p {
+	margin-top: 45px;
+}
+.contact {
+	width: 514px;
+}
+.socc {
+	float: left;
+}
+.socc:last-child {
+	margin-left: 75px;
+}
+.socc p {
+	padding:0;
+	margin:0;
+	font-size: 20px;
+	margin-left: 13px;
+	margin-top: 4px;
+	color: white;
+}
+.mobmail {
+	margin-top: 35px;
+}
+.socc1 {
+	float: left;
+}
+.socc2 {
+	float: left;
+	margin-top: 7px;
+}
+.twfac {
+	margin-top: 35px;
+}
+.socc4 {
+	float: left;
+	margin-top: 8px;
+	margin-left: 2px;
+}
+.socc5 {
+	float: left;
+	margin-top: 5px;
+	margin-left: 63px;
+}
+.twfac {
+	padding-top: 70px;
+}
+.socc6 {
+	float: left;
+	margin-top: 8px;
+}
+.socc7 {
+	float: left;
+	margin-top: 5px;
+}
+.soccc {
+	float: left;
+}
+.soccc:last-child {
+	margin-left: 70px;
+}
+.soccc p {
+	padding:0;
+	margin:0;
+	font-size: 20px;
+	margin-left: 13px;
+	margin-top: 4px;
+	color: white;
+}
+.soccc {
+	margin-top: 40px;
+	padding-bottom: 117px;
+}
+hr {
+	border: none;
+    background-color: #87a0d2;
+    height: 2px;
+}
+.containerr {
+	width: 979px;
+	margin-left: 313px;
+	font-size: 16px;
+}
+.containerr p {
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+}
