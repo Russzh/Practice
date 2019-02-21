@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> HTML</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+</head>
+<body>
+	<header>
+		<div class="container">
+				<div class="header"> <span class="MODUS">MODUS</span> <span class="versus">versus</span></div>
+				<nav>
+					<ul class="menu">
+						<li>
+							<a href="#">HOME</a>
+						</li>
+						<li>
+							<a href="#">ABOUT</a>
+						</li>
+						<li>
+							<a href="#">SERVICES</a>
+						</li>
+						<li class="sd">
+							<a id="portf" class="fr" href="#" onclick="Portfolio()">PORTFOLIO</a>
+							<ul id="por" class="port">
+								<li class="p">
+										<a class="pp" href="#">Portfolio</a>
+										<a class="ppp" href="#">Portfolio</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">BLOG</a>
+						</li>
+						<li>
+							<a href="#">FEATURES</a>
+						</li>
+						<li>
+							<a href="#">CONTACTS</a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+						</li>
+					</ul>
+				</nav>			
+		</div> 
+	</header>
+	<main>
+		<div class="slideshow-container">
+		<div class="mySlides fade">
+			<img src="img/services.jpg" style="width: 100%" stylealt=""> 
+		</div>
+
+		<div class="mySlides fade">
+			<img src="img/services.jpg" style="width: 100%" stylealt=""> 
+		</div>
+
+		<div class="mySlides fade">
+			<img src="img/services.jpg" style="width: 100%" stylealt=""> 
+		</div>
+		<a class="prev" onclick="plusSlides(-1)">&#171</a>
+		<a class="next" onclick="plusSlides(1)">&#187</a>
+	</div>
+	<br>
+	<div style="text-align: center;">
+		<span class="dot" onclick="currentSlide(1)"></span>
+		<span class="dot" onclick="currentSlide(2)"></span>
+		<span class="dot" onclick="currentSlide(3)"></span>
+	</div>
+	
+	<script src="js/script.js"></script>
+	</main>
+		
+	<footer id="cont">
+	</footer>
+</body>
+</html>

@@ -1,0 +1,159 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+    margin: 0;
+}
+header {
+	background-color: #48D1CC;
+}
+.header {
+	padding-top: 36px;
+	height: 60px;
+	margin-right: 200px;
+}
+.container {
+	display: flex;
+	width: 1160px;
+	margin: 0 auto;
+}
+.logo {
+    margin-top: 50px;
+}
+nav {
+	float: right;
+	margin-top: 25px;
+}
+.MODUS {
+	color: white;
+	font-size: 17px;
+	font-weight:600;
+}
+.versus{
+	color: white;
+	font-weight: 600;
+	font-size: 16px;
+}
+.menu {
+	margin-top: 6px;	
+}	
+.menu li {
+	float: left;
+	display: block;
+}
+.port > li > a {
+	display: flex;
+	justify-content: center;
+	width: 83px;
+	color: white;
+	text-decoration: none;
+	font-size: 15px;	
+}
+.port > li > a:hover {
+	background-color: #48D1CC;
+	opacity: 1.00;
+	border-radius: 7px;
+}
+.activve {
+	display: block;
+}
+.sd > a:hover{
+	background-color: red;
+	opacity: 1.00;
+	border-radius: 7px;
+	z-index: 1000;
+}
+.menu > li > a {
+	display: block;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	margin-right: 34px;
+	font-size: 12px;
+}
+.sd {
+	position: relative;
+}
+nav ul ul {
+	border: 2px solid red;
+	background-color: red;
+	display: none;
+	position: absolute;
+	top: 35px;
+	margin-right: 0px;
+	padding-right: 0px;
+	z-index: 1000;
+}
+.menu > li > a:hover{
+	background-color: #5F9EA0;
+	opacity: 1.00;
+	border-radius: 7px;
+}
+.lupa {
+	margin-top: 3px;
+}
+#slaider {
+	height: 505px;
+	background-color: red;
+}
+.slideshow-container{
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	margin-top:-80px;
+	width: auto;
+	padding:16px;
+	color: white;
+	font-weight: bold;
+	font-size: 80px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3 px;
+}
+.prev:hover, .next:hover{
+	background-color: rgba(255,0,0,0.8)
+}
+.text {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+.dot {
+	cursor: pointer;
+	height: 5px;
+	width: 73px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 1%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+.active, .dot:hover{
+	background-color: #717171;
+}
+.fade{
+	-webkit-animation-name:fade;
+	-webkit-animation-duration:1.5s;
+	animation-name: fade;
+	animation-duration:1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
