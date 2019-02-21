@@ -1,0 +1,39 @@
+.price div {
+    float: left;
+    padding: 6px 4%;
+    margin: 0 -4%;
+    display: table;
+}
+.price_2 {
+    width: 50%;
+    margin-right: 3%;
+    display: table-cell;
+    vertical-align: middle;
+}
+.price_3 {
+    width: 47%;
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: normal;font-size:13px;
+}
+body {
+    background: #fff;
+    margin: 0;
+    width: auto;
+    font: 16px 'Segoe UI', arial;
+    color: #333;
+    overflow: hidden;
+}
+div {
+    box-sizing: border-box;
+    display: block;
+}
+.price_3 .span {
+    margin-right: 20px;
+}
+.price_3 .spann {
+    margin-left: 20px;
+}
+.price_3 .spannn {
+    margin-left: 20px;
+}
